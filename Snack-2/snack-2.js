@@ -11,7 +11,7 @@ if (firstWord.length === 0 || secondWord === 0) {
     // Controllo quale parola è più lunga
     if (firstWord.length > secondWord.length) {
         message = secondWord + ` ` + firstWord;
-    } else if (firstWord.length < secondWord) {
+    } else if (firstWord.length < secondWord.length) {
         message = firstWord + ` ` + secondWord;
     } else {
         message = `Le due parole hanno uguale lunghezza`;
